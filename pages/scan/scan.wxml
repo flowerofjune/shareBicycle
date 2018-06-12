@@ -1,0 +1,11 @@
+<view class='container'>
+  <view class='pwd-title'>解锁密码</view>
+  <view class='pwd-content'>{{unlockPwd}}</view>
+  <view class='tips'>
+    请使用密码解锁，{{time}}秒后开始计费，
+    <view class='tips-action'>
+    车辆有问题？
+    <text class='tips-href' bindtap='toIndex'>回首页车辆报障</text>
+    </view>
+  </view>
+</view>

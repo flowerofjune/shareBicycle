@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",    
+    "pages/billing/index",    
+    "pages/scan/scan",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#9aff02",
+    "navigationBarTitleText": "我的共享单车",
+    "navigationBarTextStyle":"black"
+  }
+}

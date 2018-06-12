@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <map class='map' id="mapId" show-location longitude="{{longitude}}" latitude="{{latitude}}" markers='{{markers}}' scale='16' controls="{{controls}}">
+    <cover-view class="lg" style="{{use}}" bindtap="toScan">
+      <cover-image class="img" src="/images/use.png" />
+    </cover-view>
+    <cover-view class="play" style="{{location}}" bindtap="moveToCenter">
+      <cover-image class="img" src="/images/location.png" />
+    </cover-view>
+    <cover-view class="play" style="{{warn}}"  bindtap="play">
+      <cover-image class="img" src="/images/warn.png" />
+    </cover-view>
+    <cover-view class="play" style="{{avatar}}" bindtap="play">
+      <cover-image class="img" src="/images/avatar.png" />
+    </cover-view>
+    <cover-view class="marker" style="{{marker}}" bindtap="play">
+      <cover-image class="img" src="/images/marker.png" />
+    </cover-view>
+  </map>
+</view>
