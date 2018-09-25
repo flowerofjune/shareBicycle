@@ -7,10 +7,10 @@
     <cover-view class="play" style="{{location}}" bindtap="moveToCenter">
       <cover-image class="img" src="/images/location.png" />
     </cover-view>
-    <cover-view class="play" style="{{warn}}"  bindtap="play">
+    <cover-view class="play" style="{{warn}}"  bindtap="toWarn">
       <cover-image class="img" src="/images/warn.png" />
     </cover-view>
-    <cover-view class="play" style="{{avatar}}" bindtap="play">
+    <cover-view class="play" style="{{avatar}}" bindtap="toPersonal">
       <cover-image class="img" src="/images/avatar.png" />
     </cover-view>
     <cover-view class="marker" style="{{marker}}" bindtap="play">

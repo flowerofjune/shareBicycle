@@ -1,0 +1,99 @@
+.container{
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.warns{
+  background-color: #fff;
+  padding: 36rpx;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+}
+
+.title{
+  background-color: #f2f2f2;
+  height: 100rpx;
+  width: 100%; 
+  line-height: 100rpx;
+  padding: 0 30rpx;
+  font-size: 32rpx;
+}
+
+.warn-item{
+  width: 45%;
+  height: 100rpx;
+  margin-top: 36rpx;
+  border: 2rpx solid #b9dd08;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 6rpx;
+}
+
+.warn-item:first-child, .warn-item:nth-of-type(2){
+   margin-top: 0;
+}
+
+.action-photo{
+  width: 100%;
+  background-color: #fff;
+  padding: 18rpx 20rpx;
+}
+
+.action-photo image{
+  width: 150rpx;
+  height: 150rpx;
+  margin: 18rpx 20rpx;
+  border: 2rpx solid #ccc;
+  vertical-align: top;
+  position: relative;
+  overflow: visible;
+}
+
+.action-photo image icon{
+  position: relative;
+  left: 130rpx;
+  top: -170rpx;
+}
+
+.action-photo text{
+  display: inline-block;
+  width: 150rpx;
+  height: 150rpx;
+  text-align: center;
+  line-height: 150rpx;
+  margin: 18rpx 20rpx;
+  font-size: 24rpx;
+  border:2rpx dotted #ccc;
+}
+
+.action-input{
+  width: 100%;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+
+.action-input input{
+  height: 80rpx;
+  margin: 0 36rpx;
+  padding: 10rpx 10rpx;
+}
+
+.action-input input:first-child{
+  border-bottom: 2rpx solid #ccc;
+}
+
+.action-submit{
+  padding: 20rpx 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.action-submit button{
+  width: 90%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background-color: #f2f2f2;
+}

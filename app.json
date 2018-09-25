@@ -1,7 +1,11 @@
 {
   "pages":[
-    "pages/index/index",    
-    "pages/billing/index",    
+    "pages/index/index",
+    "pages/billing/index",
+    "pages/charge/charge",    
+    "pages/wallet/wallet",  
+    "pages/personal/personal", 
+    "pages/warn/warn",            
     "pages/scan/scan",
     "pages/logs/logs"
   ],

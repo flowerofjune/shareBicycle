@@ -30,6 +30,16 @@ Page({
   bindcontroltap: function(e){
     console.log(e);
   },
+  toWarn: function(){
+    wx.navigateTo({
+      url: '/pages/warn/warn',
+    })
+  },
+  toPersonal: function () {
+    wx.navigateTo({
+      url: '/pages/personal/personal',
+    })
+  },
   toScan: function() {
     if(this.timer){
       wx.navigateBack({
@@ -111,7 +121,6 @@ Page({
     
   },
   getUserInfo: function(e) {
-    console.log(e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo: e.detail.userInfo,

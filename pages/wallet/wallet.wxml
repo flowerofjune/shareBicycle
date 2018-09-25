@@ -1,0 +1,22 @@
+<view class="container">
+  <view class='wallet'>
+    <view class='wallet-header'>我的余额（元）</view>
+    <view class='wallet-content'>{{wallet}}</view>
+    <view class='wallet-desc'>余额说明</view>
+  </view>
+  <button class='charge' bindtap='movetoCharge'>充值</button>
+  <view class='car-ticket'>
+    <text class='text'>我的用车券</text>
+    <text class='arrow'>></text>
+    <text class='text-right'>0张</text>      
+  </view>
+  <view class='deposit'>
+    <text class='text'>我的押金</text>
+    <text class='arrow'>></text>    
+    <text class='text-right grass-green-color'>99元，押金退款</text>
+  </view>
+  <view class='about'>
+    <text class='text'>关于ofo</text>
+    <text class='arrow'>></text>    
+  </view>
+</view>

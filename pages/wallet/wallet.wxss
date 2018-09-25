@@ -1,0 +1,62 @@
+.container{
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.wallet{
+  background-color: #fff;
+  padding: 10rpx;
+}
+.wallet-header{
+  height: 50rpx;
+  margin: 10rpx auto;
+  text-align: center;
+}
+
+.wallet-content{
+  margin: 10rpx auto;
+  text-align: center;
+  line-height: 150rpx;
+  font-size: 100rpx;
+}
+
+.wallet-desc{
+  width: 200rpx;
+  height: 50rpx;
+  margin: 10rpx auto;
+  line-height: 50rpx;
+  border-radius: 20rpx;
+  border:2rpx solid #ccc;
+  padding: 15rpx;
+  text-align: center;
+}
+
+.charge{
+  margin: 30rpx;
+  background-color: #9aff02;
+}
+
+.car-ticket, .deposit, .about{
+  background-color: #fff;
+  padding: 30rpx 20rpx;
+}
+
+.deposit{
+  margin: 6rpx 0;
+}
+
+.grass-green-color{
+  color: #9aff02;
+}
+
+.about{
+  margin: 30rpx 0;
+}
+
+.arrow, .text-right{
+  float: right;
+}
+
+.text-right{
+  margin-right: 20rpx; 
+}
